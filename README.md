@@ -1,4 +1,4 @@
-# To do Live
+﻿# To do Live
 Mini Project at internship course
 
 ## Functional
@@ -24,4 +24,4 @@ Mini Project at internship course
 * Nguyễn Văn Minh
 * Hoàng Phú
 * Minh Vương
-* Hoàng Lê Anh Tuấn
+* Anh Tuấn
