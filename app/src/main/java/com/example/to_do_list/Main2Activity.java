@@ -19,15 +19,15 @@ public class Main2Activity extends AppCompatActivity implements onClicked {
     RecyclerView recyclerView  ;
     List<Option_Items> array ;
     RecyclerAdapter adapter ;
-    ListView listView ;
-    List<image_2> ar;
+   // ListView listView ;
+   // List<image_2> ar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_task);
 
-        listView = findViewById(R.id.a);
+      //  listView = findViewById(R.id.a);
         recyclerView = findViewById(R.id.recycle) ;
         array = new ArrayList<>();
 
@@ -36,7 +36,7 @@ public class Main2Activity extends AppCompatActivity implements onClicked {
         array.add(new Option_Items(R.drawable.ic_flag_black_24dp,"Priority"));
         array.add(new Option_Items(R.drawable.ic_star_border_black_24dp,"Highlight"));
         array.add(new Option_Items(R.drawable.ic_check_box_outline_blank_black_24dp,"Completed"));
-        array.add(new Option_Items(R.drawable.ic_card_travel_black_24dp,"Created"));
+      //  array.add(new Option_Items(R.drawable.ic_card_travel_black_24dp,"Created"));
 
         adapter = new RecyclerAdapter(array,this);
 
