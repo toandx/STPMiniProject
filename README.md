@@ -1,5 +1,5 @@
 # To do Live
-Mini Project at intership course
+Mini Project at internship course
 
 ## Functional
 1. XYZ
