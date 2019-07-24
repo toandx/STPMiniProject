@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item android:id="@+id/a"
+              android:title="To-do-task"></item>
+        <item android:id="@+id/b"
+              android:title="Completed tasks"></item>
+        <item android:id="@+id/c"
+              android:title="All my tasks"></item>
+    </group>
+
+    <item android:title="My Task">
+        <menu>
+            <item android:id="@+id/d"
+                  android:title="Personal"></item>
+            <item android:id="@+id/e"
+                  android:title="Android">
+
+            </item>
+        </menu>
+    </item>
+</menu>
