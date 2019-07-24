@@ -24,4 +24,4 @@ Mini Project at internship course
 * Nguyễn Văn Minh
 * Hoàng Phú
 * Minh Vương
-* Anh Tuấn
+* Hoang Le Anh Tuấn
