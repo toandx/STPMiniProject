@@ -1,0 +1,20 @@
+1. git branch <name_branch>  : Tạo nhánh mới X, nhánh X xuất hiện ở local
+
+2. git checkout <name_branch> : Chuyển sang nhánh mới X
+
+3. update code
+
+4. git add .  : Thực hiện chuyển các file sang stage của git trạng thái chờ
+
+5. git commit -am "massge"  : Thực hiện commit lưu vết tại local
+
+6. Thực hiện merge từ master về branch X
+  git checkout master  : về nhánh master để pull code mới nhất về
+  git pull origin master  : pull code mới nhất từ remote(github) về local
+  git checkout <name_branch>
+  git merge master   : Thực hiện merge từ master về nhánh X, nếu có conflict thì fix conflict, thực hiện chạy Chương trình trên nhánh X, nếu ok thì sang bước 7, nếu cần commit thì cứ commit bình thường rồi sang bước 7
+
+7. git push origin <name_branch>   : thực hiện push code lên nhánh, nếu trên remote(web, github) chưa có branch này thì sẽ tự tạo mới
+
+8. Thực hiện tạo pull request về master trên web
+  Nếu "able to merge" thì merge là ok
