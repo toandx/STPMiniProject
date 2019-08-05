@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <group>
+            <item android:id="@+id/sort_name"
+                  android:title="Sort by name"></item>
+            <item android:id="@+id/sort_duetime"
+                android:title="Sort by due time"></item>
+            <item android:id="@+id/completed_all"
+                android:title="Completed All"></item>
+            <item android:id="@+id/hide_completed"
+                android:title="Hide Completed"></item>
+            <item android:id="@+id/remove_completed"
+                android:title="Remove Completed"></item>
+            <item android:id="@+id/delete_list"
+                android:title="Delete List"></item>
+        </group>
+</menu> 
